@@ -1,6 +1,6 @@
 **A Note on Support**
 
-The visualizations provided in this repository are intended to serve as examples. Looker's support team does not troubleshoot issues relating to these example visualizations or your custom visualization code. Supported visualizations are downloadable through the [Looker Marketplace](https://docs.looker.com/data-modeling/marketplace). 
+The visualizations provided in this repository are intended to serve as examples. Looker's support team does not troubleshoot issues relating to these example visualizations or your custom visualization code. Supported visualizations are downloadable through the [Looker Marketplace](https://docs.looker.com/data-modeling/marketplace).
 
 ----
 
@@ -22,11 +22,11 @@ The visualizations provided in this repository are intended to serve as examples
 
 # Commands
 
+* `yarn dev` - runs webpack on `https://localhost:8080/` you need to open the link and allow
 * `yarn build` - Compiles the code in `/src` to `/dist` via webpack
+* `yarn clean` - to delete current `/dist`
 * `yarn lint` - Runs TSLint across the codebase.
 * `yarn lint-fix` - Runs TSLint and attempts to fix any linter errors automatically.
 
 
 ----
-
-
